@@ -18,7 +18,7 @@
   },
   "build": {
     "appId": "com.suited.uranium",
-    "productName": "uranium-elec",
+    "productName": "Uranium Store",
     "target": "NSIS"
   },
   "nsis": {
