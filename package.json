@@ -17,8 +17,11 @@
     "electron-packager": "^16.0.0"
   },
   "build": {
-    "appId": "com.suited.app",
+    "appId": "com.suited.uranium",
     "productName": "uranium-elec",
-    "target": "dir"
+    "target": "NSIS"
+  },
+  "nsis": {
+    "allowToChangeInstallationDirectory": true
   }
 }
