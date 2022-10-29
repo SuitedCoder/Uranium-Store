@@ -1,6 +1,6 @@
 {
   "name": "uranium-elec",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,11 @@
     "directories": {
       "buildResources": "build"
     },
-    "icon": "build/icon.ico"
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.png"
+    },
+    "icon": "build/icon.jpg"
   },
   "nsis": {
     "installerIcon": "build/icon.ico",
